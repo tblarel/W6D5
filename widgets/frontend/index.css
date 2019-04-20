@@ -1,0 +1,71 @@
+.clock {
+  font-family: Open Sans;
+  display: flex;
+  flex-wrap: wrap;
+  background: lightseagreen;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.clock div {
+  width: 100%;
+}
+
+.clockrow{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  border-radius: 20px 20px 0 0;
+  background: orangered;
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  font-size: 2em;
+  border: 1px solid black;
+}
+
+
+.tabs {
+  
+  padding-left: 0px;
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  width: 300px;
+  justify-content: space-between;
+  margin-top:20px;
+}
+
+.article {
+  background: forestgreen;
+  height: 200px;
+  width: 300px;
+  z-index: 2;
+  position: relative;
+  top: -1px;
+
+}
+
+.hide {
+  display: none;
+}
+
+.article{
+  margin: 0 auto;
+}
+
+.active {
+  background: forestgreen;
+  border-bottom: none;
+}
+
+
+
+/* .start{
+  align-self: flex-start;
+}
+.end {
+  align-self: flex-end;
+} */
